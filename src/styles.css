@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: peru;
+}
+
+img.restaurant {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+img.about {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+header {
+    background-color: saddlebrown;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 0px 6px 10px -7px #724226;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.tabs button {
+    background-color: peru;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.tabs button:hover {
+    background-color: saddlebrown;
+}
+
+.tabs button.active {
+    background-color: rgb(220, 174, 113);
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Chango", sans-serif;
+    font-size: 4rem;
+    padding: 10px;
+    color: rgb(77, 37, 16);
+}
+
+h2 {
+    font-family: "Chango", sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+    color: rgb(124, 71, 46);
+
+}
+
+h3 {
+    color: saddlebrown;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: saddlebrown;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: rgb(67, 30, 8);
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+div.info {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(220, 174, 113);
+    padding: 10px 20px 30px 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.beverage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: saddlebrown;
+}
+
+footer {
+    color: rgb(220, 174, 113);
+    text-align: center;
+    background-color: saddlebrown;
+    padding: 10px;
+}
