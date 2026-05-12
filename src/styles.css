@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 html, body {
-    min-height: 1000vh;
+    min-height: 100vh;
 }
 body {
     display: flex;
